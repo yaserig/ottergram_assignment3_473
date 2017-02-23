@@ -1,6 +1,6 @@
-var linkArray =[].slice.call(document.querySelectorAll('a'));
+var array_of_links =[].slice.call(document.querySelectorAll('a'));
 
-function disableClick(link) {
+function disable_Click(link) {
     'use strict';
     link.addEventListener('click', function(event) {
         event.preventDefault();
@@ -8,4 +8,4 @@ function disableClick(link) {
     });
 }
 
-linkArray.forEach(disableClick);
+array_of_links.forEach(disable_Click);
