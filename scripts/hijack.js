@@ -4,7 +4,7 @@ function disableClick(link) {
     'use strict';
     link.addEventListener('click', function(event) {
         event.preventDefault();
-		    console.log('You cannot click!!!')
+		    console.log('You cannot click!!!');
     });
 }
 
